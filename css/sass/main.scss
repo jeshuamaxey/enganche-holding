@@ -20,19 +20,25 @@ and Blueprint http://www.blueprintcss.org/
 ----------------------------------------------- */
 
 //SASS variables
-$bg-blue: rgb(224,240,244);
-$text-black: rgb(20,38,33);
+$bg-blue: rgba(223,242,246,1);
+$text-green: rgba(33,92,63,1);
 
 //Styles
 
 body {
 	background-color: $bg-blue;
-	color: $text-black;
+	color: $text-green;
 	padding-top: 20px;
 }
 
 .container {
 	text-align: center;
+	color: $text-green;
+}
+
+.main-wrapper {
+	position: relative;
+	top: -37px;
 }
 
 p {
@@ -41,7 +47,7 @@ p {
 }
 
 a {
-	color: $text-black;
+	color: $text-green;
 	&:hover {
 		color: rgb(0,0,0);
 		text-decoration: none;
@@ -59,8 +65,15 @@ a {
 	}
 }
 
-.contact-icon {
-	height: 35px;
+.contact-detail-wraps {
+	white-space: nowrap;
+	.email-contact-icon {
+		height: 24px;
+		margin-right: 5px;
+	}
+	.twitter-contact-icon {
+		height: 35px;
+	}
 }
 
 

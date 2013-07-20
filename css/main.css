@@ -6279,6 +6279,34 @@ a.badge:focus {
     overflow: visible !important; } }
 /* =Global
 ----------------------------------------------- */
+body {
+  background-color: #e0f0f4;
+  color: #142621;
+  padding-top: 20px; }
+
+.container {
+  text-align: center; }
+
+p {
+  width: 65%;
+  margin: 18px auto; }
+
+a {
+  color: #142621; }
+  a:hover {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+
+.band-name {
+  white-space: nowrap; }
+
+.logo-wrapper .logo {
+  z-index: 0; }
+
+.contact-icon {
+  height: 35px; }
+
 /* =Media Queries / Responsive Styles Imports
 ----------------------------------------------- */
 /*

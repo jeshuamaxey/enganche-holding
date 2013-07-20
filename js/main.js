@@ -1,5 +1,5 @@
 $(document).ready(docReady);
 
 function docReady() {
-	//coad of coad hall
+	$('.band-name').tooltip();
 }

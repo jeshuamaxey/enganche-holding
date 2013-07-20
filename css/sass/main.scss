@@ -20,8 +20,48 @@ and Blueprint http://www.blueprintcss.org/
 ----------------------------------------------- */
 
 //SASS variables
+$bg-blue: rgb(224,240,244);
+$text-black: rgb(20,38,33);
 
 //Styles
+
+body {
+	background-color: $bg-blue;
+	color: $text-black;
+	padding-top: 20px;
+}
+
+.container {
+	text-align: center;
+}
+
+p {
+	width: 65%;
+	margin: 18px auto;
+}
+
+a {
+	color: $text-black;
+	&:hover {
+		color: rgb(0,0,0);
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+
+.band-name {
+	white-space: nowrap;
+}
+
+.logo-wrapper {
+	.logo {
+		z-index: 0;
+	}
+}
+
+.contact-icon {
+	height: 35px;
+}
 
 
 /* =Media Queries / Responsive Styles Imports
